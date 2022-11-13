@@ -6,4 +6,8 @@ public abstract class Employee {
     public abstract Money calculatePay();
 
     public abstract void deliverPay(Money pay);
+
+    public Long getID() {
+        return 1L;
+    }
 }
